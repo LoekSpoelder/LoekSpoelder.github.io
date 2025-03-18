@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+html::before {
+    content: "";
+    border-style: outset;
+    border-color: lightgrey;
+    border-width: 5px;
+    height: 100vh;
+    pointer-events: none;
+    position: fixed;
+    width: 100vw;
+}
+
+#windowname {
+    background-color: #4444b3;
+    border-color: lightgrey;
+    border-style: inset;
+    border-width: 5px;
+    width: calc(100vw - 10px);
+    height: 40px;
+
+  }
+
+#button3 {
+  background-color: lightgrey;
+  border-color: lightgrey;
+  border-style: outset;
+  color: #1E1F1F;
+  border-width: 2px;
+  position: absolute;
+  top: -3px;
+  right: 13px;
+}
+
+#button2 {
+  background-color: lightgrey;
+  border-color: lightgrey;
+  border-style: outset;
+  color: #1E1F1F;
+  border-width: 2px;
+  position: absolute;
+  top: -3px;
+  right: 31px;
+}
+
+#button1 {
+  background-color: lightgrey;
+  border-color: lightgrey;
+  border-style: outset;
+  color: #1E1F1F;
+  border-width: 2px;
+  position: absolute;
+  top: -3px;
+  right: 50px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+#navbar {
+    background-color: lightgray;
+    border-color: lightgray;
+    border-width: 5px;
+    padding: 5px;
+    height: 35px;
+}
+
+#window {
+    height: calc(100vh - 85px);
+    width: calc(100vw - 10px);
+    overflow: auto;
+    background-color: #1E1F1F;
+    /*scrollbar-width: none;*/
+    border-style: inset;
+    border-color: lightgray;
+    border-width: 5px;
+}
+
+body {
+    background-color: lightgray;
+    margin: 5px;
+}
+
+p, ul, li, table {
+    font-family: 'VT323', monospace;
+    color: #4CA952;
+    margin: 10px;
+    line-height: 20px;
+}
+
+h4 {
+    font-family: 'VT323', monospace;
+    margin: 0;
+    margin-left: 10px;
+    vertical-align: middle; /*idk what this does*/
+    line-height: 30px;
+}
