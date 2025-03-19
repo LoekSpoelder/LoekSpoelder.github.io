@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+html::before {
+    content: "";
+    border-style: outset;
+    border-width: 3px;
+    height: 100vh;
+    pointer-events: none;
+    position: fixed;
+    width: 100vw;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track, ::-webkit-scrollbar-corner {
+    background: #1E1F1F;
+}
+
+::-webkit-scrollbar-thumb {
+    border: outset;
+    border-width: 3px;
+    background: lightgray; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(182, 182, 182); 
+}
+
+#windowname {
+    background-color: #4444b3;
+    border-style: inset;
+    border-width: 3px;
+    width: calc(100vw - 6px);
+    height: 40px;
+  }
+
+.buttons {
+  float: right;
+  padding: 0px;
+  text-align: center;
+  height: 20px;
+  width: 20px;
+  margin: 7px;
+  margin-top: -25.9px;
+  line-height: 0px;
+}
+
+#navbar {
+    background-color: lightgray;
+    border-width: 3px;
+    height: 35px;
+    width: calc(100vw - 6px);
+    padding-top: 7.9px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+#right {
+    float: right;
+}
+
+#window {
+    height: calc(100vh - 81px);
+    width: calc(100vw - 6px);
+    overflow: auto;
+    background-color: #1E1F1F;
+    border-style: inset;
+    border-width: 3px;
+    padding: 20px;
+}
+
+.flexbox1 {
+    display: flex;
+}
+
+.flexbox1 div {
+    flex: 0 0 50%;
+}
+
+.flexbox2 {
+    display: flex;
+}
+
+.flexbox2 div {
+    flex: 0 0 33.3%;
+}
+
+body {
+    background-color: lightgray;
+    margin: 3px;
+}
+
+p, ul, li, table {
+    font-family: 'VT323', monospace;
+    color: #4CA952;
+    margin: 10px;
+    line-height: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+}
+
+button {
+  border: outset;
+  border-width: 3px;
+  background-color: lightgray;
+}
+
+button:hover {
+  background-color: rgb(182, 182, 182);
+}
+
+button:active {
+  border: inset;
+  border-width: 3px;
+  border-color: rgb(182, 182, 182);
+  background-color: gray;
+}
+
+a {
+    font-family: 'VT323', monospace;
+    text-decoration-line: none;
+    color: black;
+    border: outset;
+    border-width: 3px;
+    border-color: #EEEEEE;
+    background-color: lightgray;
+    padding: calc(19px - 1em);
+}
+
+a:hover {
+    background-color: rgb(182, 182, 182);
+}
+
+a:active {
+    border: inset;
+    border-width: 3px;
+    border-color: rgb(182, 182, 182);
+    background-color: gray;
+}
+
+h3 {
+    font-family: 'VT323', monospace;
+    margin: 7px;
+}
